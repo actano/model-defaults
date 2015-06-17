@@ -10,10 +10,15 @@
   "license": "MIT",
   "version": "0.2.2",
   "dependencies": {
-    "clone-component": "~0.1.0",
+    "component-clone": "~0.2.2",
     "component-type": "1.0.0",
-    "each-component": "git://github.com/segmentio/each#0.1.x",
+    "component-each": "~0.2.6",
     "is": "git://github.com/ianstormtaylor/is#0.1.1"
+  },
+  "browser": {
+    "clone": "component-clone",
+    "type": "component-type",
+    "each": "component-each"
   },
   "devDependencies": {
     "model": "git://github.com/component/model"
