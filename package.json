@@ -13,7 +13,7 @@
     "component-clone": "~0.2.2",
     "component-type": "1.0.0",
     "component-each": "~0.2.6",
-    "is": "git://github.com/ianstormtaylor/is#0.1.1"
+    "is": "git://github.com/component/is#master"
   },
   "browser": {
     "clone": "component-clone",
