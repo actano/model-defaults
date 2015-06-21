@@ -4,8 +4,8 @@ try {
   var each = require('each');
   var type = require('type');
 } catch (e) {
-  var clone = require('clone-component');
-  var each = require('each-component');
+  var clone = require('component-clone');
+  var each = require('component-each');
   var type = require('component-type');
 }
 
